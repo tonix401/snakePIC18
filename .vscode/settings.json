@@ -1,0 +1,31 @@
+{
+    "mplab.ioview.columnWidths": {
+        "snake-default": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            180
+        ]
+    },
+    "mplab.ioview.taggedNodes": {
+        "snake-default": []
+    },
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "files.associations": {
+        "definitions.h": "c"
+    },
+    "cmake.sourceDirectory": "/home/tom/Git/hardware/cmake/snake/default",
+    "cmake.cmakePath": "/usr/bin/cmake",
+    "mplab.clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/_build/snake/default"
+    ],
+    "mplab.clangd.path": "/opt/microchip/xc8/v3.10/bin/xc8-clangd",
+    "memory-inspector.debugTypes": [
+        "arm-debugger",
+        "embedded-debug",
+        "gdb",
+        "mplab-core-da"
+    ]
+}

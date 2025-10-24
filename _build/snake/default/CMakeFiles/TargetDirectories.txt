@@ -1,0 +1,4 @@
+/home/tom/Git/hardware/_build/snake/default/CMakeFiles/snake_default_default_XC8_compile.dir
+/home/tom/Git/hardware/_build/snake/default/CMakeFiles/snake_default_image_ywhjNp6H.dir
+/home/tom/Git/hardware/_build/snake/default/CMakeFiles/edit_cache.dir
+/home/tom/Git/hardware/_build/snake/default/CMakeFiles/rebuild_cache.dir

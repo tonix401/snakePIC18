@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="/home/tom/Git/hardware/out/snake/default.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>131072</length>
+      <used>412</used>
+      <free>130660</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>8192</length>
+      <used>150</used>
+      <free>8042</free>
+    </memory>
+  </executable>
+</project>
