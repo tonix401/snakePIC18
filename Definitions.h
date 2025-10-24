@@ -58,7 +58,6 @@
 // #pragma config statements should precede project file includes.
 // Use project enums instead of #define for ON and OFF.
 
-#define _XTAL_FREQ 4000000  // Fosc 4MHz XTAL frequency 
+#define _XTAL_FREQ 1000000  // Fosc 4MHz XTAL frequency 
                             // used ONLY for _delay() functions
-    
 #include <xc.h>

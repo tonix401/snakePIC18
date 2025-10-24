@@ -1,10 +1,16 @@
 # ninja log v7
-1	175	1761293929932794040	CMakeFiles/snake_default_default_XC8_compile.dir/home/tom/Git/hardware/main.c.p1	888445ae337046a7
-175	744	1761293930106795117	/home/tom/Git/hardware/out/snake/default.elf	f9e73721cfde05a8
-6	16	1761293929876793694	clean	504c77f20cf4f533
-1	259	1761294678247999179	CMakeFiles/snake_default_default_XC8_compile.dir/home/tom/Git/hardware/main.c.p1	888445ae337046a7
-259	850	1761294678505999980	/home/tom/Git/hardware/out/snake/default.elf	f9e73721cfde05a8
-2	317	1761295411663954926	CMakeFiles/snake_default_default_XC8_compile.dir/home/tom/Git/hardware/main.c.p1	888445ae337046a7
-318	947	1761295411979955682	/home/tom/Git/hardware/out/snake/default.elf	f9e73721cfde05a8
 3	272	1761295556373297254	CMakeFiles/snake_default_default_XC8_compile.dir/home/tom/Git/hardware/main.c.p1	888445ae337046a7
 272	905	1761295556642297883	/home/tom/Git/hardware/out/snake/default.elf	f9e73721cfde05a8
+6	16	1761293929876793694	clean	504c77f20cf4f533
+11	278	1761298377981662174	CMakeFiles/snake_default_default_XC8_compile.dir/home/tom/Git/hardware/main.c.p1	888445ae337046a7
+278	901	1761298378248664165	/home/tom/Git/hardware/out/snake/default.elf	f9e73721cfde05a8
+5	264	1761298475162358481	CMakeFiles/snake_default_default_XC8_compile.dir/home/tom/Git/hardware/main.c.p1	888445ae337046a7
+264	926	1761298475421360265	/home/tom/Git/hardware/out/snake/default.elf	f9e73721cfde05a8
+1	211	1761298654387516262	CMakeFiles/snake_default_default_XC8_compile.dir/home/tom/Git/hardware/main.c.p1	888445ae337046a7
+212	819	1761298654598517544	/home/tom/Git/hardware/out/snake/default.elf	f9e73721cfde05a8
+1	196	1761298746489061074	CMakeFiles/snake_default_default_XC8_compile.dir/home/tom/Git/hardware/main.c.p1	888445ae337046a7
+196	804	1761298746685062203	/home/tom/Git/hardware/out/snake/default.elf	f9e73721cfde05a8
+1	197	1761298778192242176	CMakeFiles/snake_default_default_XC8_compile.dir/home/tom/Git/hardware/main.c.p1	888445ae337046a7
+197	835	1761298778388243286	/home/tom/Git/hardware/out/snake/default.elf	f9e73721cfde05a8
+0	182	1761298801265372097	CMakeFiles/snake_default_default_XC8_compile.dir/home/tom/Git/hardware/main.c.p1	888445ae337046a7
+182	788	1761298801447373116	/home/tom/Git/hardware/out/snake/default.elf	f9e73721cfde05a8

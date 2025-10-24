@@ -5,8 +5,8 @@ Linker command line:
 -W-3 --edf=/opt/microchip/xc8/v3.10/pic/dat/20250813170317_en.msgs \
   -pivt0x8=08h -cn -h+/home/tom/Git/hardware/out/snake/default.sym \
   --cmf=/home/tom/Git/hardware/out/snake/default.cmf -z -Q18F47K42 \
-  -o/tmp/xcXhOdkFi/driver_tmp_3.o --defsym=__MPLAB_BUILD=1 \
-  --fixupoverflow=error -Mmem.map --md=/tmp/xcXhOdkFi/driver_tmp_0.dat -E1 \
+  -o/tmp/xcXJgkocn/driver_tmp_3.o --defsym=__MPLAB_BUILD=1 \
+  --fixupoverflow=error -Mmem.map --md=/tmp/xcXJgkocn/driver_tmp_0.dat -E1 \
   -ver=XC8 Compiler -ACODE=00h-01FFFFh -ACONST=00h-01FFFFh \
   -ASMALLCONST=02000h-020FFhx224,012000h-0120FFhx224 \
   -AMEDIUMCONST=02000h-0FFFFh,012000h-01FFFFh -ACOMRAM=01h-05Fh \
@@ -31,7 +31,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  /tmp/xcXhOdkFi/driver_tmp_9.o /home/tom/Git/hardware/out/snake/default.o 
+  /tmp/xcXJgkocn/driver_tmp_9.o /home/tom/Git/hardware/out/snake/default.o 
 
 Object code version is 3.11
 
@@ -40,7 +40,7 @@ Machine type is 18F47K42
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-/tmp/xcXhOdkFi/driver_tmp_9.o
+/tmp/xcXJgkocn/driver_tmp_9.o
                 config                           300000   300000        A        0       4
                 init                                 1A       1A        4        4       0
                 reset_vec                             0        0        4        0       0
@@ -48,34 +48,32 @@ Machine type is 18F47K42
                 config                           300000   300000        A        0       4
                 smallconst                         2000     2000        2     1000       0
                 ivt0x8                                8        8       12        4       0
-                text5                              214E     214E       1C     2002       0
-                text4                              2180     2180        2     2002       0
-                text3                              217E     217E        2     2002       0
-                text2                              20E4     20E4       4E     2002       0
-                text1                              2132     2132       1C     2002       0
-                text0                              216A     216A       10     2002       0
-                cstackCOMRAM                         15       15        2        1       1
+                text4                              2160     2160       1C     2002       0
+                text3                              2182     2182        2     2002       0
+                text2                              2180     2180        2     2002       0
+                text1                              20E4     20E4       4E     2002       0
+                text0                              2132     2132       2E     2002       0
+                cstackCOMRAM                         15       15        3        1       1
                 dataBANK0                            60       60       80       60       1
                 dataCOMRAM                           11       11        4        1       1
                 bssCOMRAM                             1        1       10        1       1
                 cinit                              2082     2082       62     2002       0
                 idataBANK0                         2002     2002       80     2002       0
-                idataCOMRAM                        217A     217A        4     2002       0
+                idataCOMRAM                        217C     217C        4     2002       0
 
 TOTAL           Name                               Link     Load   Length     Space
         CLASS   CODE           
                 init                                 1A       1A        4         0
                 reset_vec                             0        0        4         0
                 ivt0x8                                8        8       12         0
-                text5                              214E     214E       1C         0
-                text4                              2180     2180        2         0
-                text3                              217E     217E        2         0
-                text2                              20E4     20E4       4E         0
-                text1                              2132     2132       1C         0
-                text0                              216A     216A       10         0
+                text4                              2160     2160       1C         0
+                text3                              2182     2182        2         0
+                text2                              2180     2180        2         0
+                text1                              20E4     20E4       4E         0
+                text0                              2132     2132       2E         0
                 cinit                              2082     2082       62         0
                 idataBANK0                         2002     2002       80         0
-                idataCOMRAM                        217A     217A        4         0
+                idataCOMRAM                        217C     217C        4         0
 
         CLASS   CONST          
 
@@ -85,7 +83,7 @@ TOTAL           Name                               Link     Load   Length     Sp
         CLASS   MEDIUMCONST    
 
         CLASS   COMRAM         
-                cstackCOMRAM                         15       15        2         1
+                cstackCOMRAM                         15       15        3         1
                 dataCOMRAM                           11       11        4         1
                 bssCOMRAM                             1        1       10         1
 
@@ -182,10 +180,10 @@ TOTAL           Name                               Link     Load   Length     Sp
 SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
 
                 reset_vec                      000000  000004  000004         0       0  CODE    
-                idataBANK0                     002002  000180  002182      2002       0  CODE    
+                idataBANK0                     002002  000182  002184      2002       0  CODE    
                 ivt0x8                         000008  000016  00001E         4       0  CODE    
                 dataBANK0                      000060  000080  0000E0        60       1  BANK0   
-                bssCOMRAM                      000001  000016  000017         1       1  COMRAM  
+                bssCOMRAM                      000001  000017  000018         1       1  COMRAM  
                 smallconst                     002000  000002  002002      1000       0  SMALLCON
 
 
@@ -224,23 +222,23 @@ UNUSED ADDRESS RANGES
         BANK7            000700-0007FF              100
         BANK8            000800-0008FF              100
         BANK9            000900-0009FF              100
-        BIGRAM           000017-00005F               49
+        BIGRAM           000018-00005F               48
                          0000E0-001FFF             1F20
         BIGSFR           003800-003FFF              800
         CODE             000004-000007                4
                          00001E-001FFF             1FE2
-                         002182-01FFFF            1DE7E
-        COMRAM           000017-00005F               49
+                         002184-01FFFF            1DE7C
+        COMRAM           000018-00005F               48
         CONST            000004-000007                4
                          00001E-001FFF             1FE2
-                         002182-01FFFF            1DE7E
+                         002184-01FFFF            1DE7C
         EEDATA           310000-3103FF              400
         IDLOC            200000-20000F               10
-        MEDIUMCONST      002182-00FFFF             DE7E
+        MEDIUMCONST      002184-00FFFF             DE7C
                          012000-01FFFF             E000
         RAM              0000E0-001FFF              100
         SFR              003800-003FFF              100
-        SMALLCONST       002182-00FFFF              100
+        SMALLCONST       002184-00FFFF              100
                          012000-01FFFF              100
 
                                   Symbol Table
@@ -250,10 +248,9 @@ IVTBASEL                 (abs)        003FD5
 IVTBASEU                 (abs)        003FD7
 _ANSELB                  (abs)        003A50
 _INTCON0bits             (abs)        003FD2
-_Int0Handler             text5        00214E
-_Int1Handler             text4        002180
-_Int2Handler             text3        00217E
-_InterruptInit           text1        002132
+_Int0Handler             text4        002160
+_Int1Handler             text3        002182
+_Int2Handler             text2        002180
 _LATA                    (abs)        003FBA
 _LATC                    (abs)        003FBC
 _LATEbits                (abs)        003FBE
@@ -263,9 +260,7 @@ _PIE7bits                (abs)        003997
 _PIR1bits                (abs)        0039A1
 _PIR5bits                (abs)        0039A5
 _PIR7bits                (abs)        0039A7
-_TRISA                   (abs)        003FC2
 _TRISB                   (abs)        003FC3
-_TRISC                   (abs)        003FC4
 _TRISE                   (abs)        003FC6
 __HRAM                   (abs)        000000
 __H__absolute__          __absolute__ 000000
@@ -346,7 +341,7 @@ __Hreset_vec             reset_vec    000004
 __Hrparam                rparam       000000
 __Hsfr                   sfr          000000
 __Hsmallconst            smallconst   002002
-__Hspace_0               (abs)        002182
+__Hspace_0               (abs)        002184
 __Hspace_1               (abs)        0000E0
 __Hspace_2               (abs)        000000
 __Hspace_4               (abs)        60000A
@@ -359,7 +354,6 @@ __Htext1                 text1        000000
 __Htext2                 text2        000000
 __Htext3                 text3        000000
 __Htext4                 text4        000000
-__Htext5                 text5        000000
 __LRAM                   (abs)        000001
 __L__absolute__          __absolute__ 000000
 __Labs1                  abs1         000000
@@ -452,8 +446,7 @@ __Ltext1                 text1        000000
 __Ltext2                 text2        000000
 __Ltext3                 text3        000000
 __Ltext4                 text4        000000
-__Ltext5                 text5        000000
-__S0                     (abs)        002182
+__S0                     (abs)        002184
 __S1                     (abs)        0000E0
 __S4                     (abs)        000000
 __S5                     (abs)        000000
@@ -472,13 +465,12 @@ ___stack_hi              stack        000000
 ___stack_lo              stack        000000
 __accesstop              (abs)        000060
 __activetblptr           (abs)        000000
-__end_of_Int0Handler     text5        00216A
-__end_of_Int1Handler     text4        002182
-__end_of_Int2Handler     text3        002180
-__end_of_InterruptInit   text1        00214E
+__end_of_Int0Handler     text4        00217C
+__end_of_Int1Handler     text3        002184
+__end_of_Int2Handler     text2        002182
 __end_of__initialization cinit        0020DE
-__end_of_isr             text2        002132
-__end_of_main            text0        00217A
+__end_of_isr             text1        002132
+__end_of_main            text0        002160
 __initialization         cinit        002082
 __mediumconst            smallconst   002000
 __pbssCOMRAM             bssCOMRAM    000001
@@ -487,22 +479,21 @@ __pcstackCOMRAM          cstackCOMRAM 000015
 __pdataBANK0             dataBANK0    000060
 __pdataCOMRAM            dataCOMRAM   000011
 __pidataBANK0            idataBANK0   002002
-__pidataCOMRAM           idataCOMRAM  00217A
+__pidataCOMRAM           idataCOMRAM  00217C
 __pivt0x8                ivt0x8       000008
 __psmallconst            smallconst   002000
-__ptext0                 text0        00216A
-__ptext1                 text1        002132
-__ptext2                 text2        0020E4
-__ptext3                 text3        00217E
-__ptext4                 text4        002180
-__ptext5                 text5        00214E
+__ptext0                 text0        002132
+__ptext1                 text1        0020E4
+__ptext2                 text2        002180
+__ptext3                 text3        002182
+__ptext4                 text4        002160
 __ramtop                 ramtop       002000
 __smallconst             smallconst   002000
 _apple                   dataCOMRAM   000013
 _body                    dataBANK0    000060
 _direction               dataCOMRAM   000011
-_isr                     text2        0020E4
-_main                    text0        00216A
+_isr                     text1        0020E4
+_main                    text0        002132
 end_of_initialization    cinit        0020DE
 intlevel0                text         000000
 intlevel1                text         000000
@@ -526,12 +517,11 @@ shared
 shared estimated size: 92
 
 /home/tom/Git/hardware/main.c
-		_main          		CODE           	216A	0000	16
-		_InterruptInit 		CODE           	2132	0000	28
+		_main          		CODE           	2132	0000	46
 		_isr           		CODE           	20E4	0000	78
-		_Int0Handler   		CODE           	214E	0000	28
-		_Int1Handler   		CODE           	2180	0000	2
-		_Int2Handler   		CODE           	217E	0000	2
+		_Int0Handler   		CODE           	2160	0000	28
+		_Int1Handler   		CODE           	2182	0000	2
+		_Int2Handler   		CODE           	2180	0000	2
 
-/home/tom/Git/hardware/main.c estimated size: 154
+/home/tom/Git/hardware/main.c estimated size: 156
 
