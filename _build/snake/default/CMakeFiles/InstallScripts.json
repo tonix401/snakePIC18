@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/tom/Git/hardware/_build/snake/default/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

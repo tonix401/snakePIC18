@@ -15,7 +15,11 @@ foreach(source_file ${snake_default_default_XC8_FILE_TYPE_assemblePreprocess})
         set_source_files_properties(${source_file} PROPERTIES INCLUDE_DIRECTORIES "$<PATH:NORMAL_PATH,$<PATH:REMOVE_FILENAME,${source_file}>>")
 endforeach()
 
-set(snake_default_default_XC8_FILE_TYPE_compile "${CMAKE_CURRENT_SOURCE_DIR}/../../../main.c")
+set(snake_default_default_XC8_FILE_TYPE_compile
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../7_seg_display_logic.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../LED_matrix_logic.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../game_logic.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../main.c")
 set_source_files_properties(${snake_default_default_XC8_FILE_TYPE_compile} PROPERTIES LANGUAGE C)
 set(snake_default_default_XC8_FILE_TYPE_link)
 set(snake_default_image_name "default.elf")

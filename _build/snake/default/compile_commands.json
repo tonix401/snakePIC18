@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/tom/Git/hardware/_build/snake/default",
-  "command": "/opt/microchip/xc8/v3.10/bin/xc8-cc -DXPRJ_default=default -D__18F47K42__ -D__DEBUG=1 -c -mcpu=18F47K42 -mdfp=/home/tom/.mchp_packs/Microchip/PIC18F-K_DFP/1.15.303/xc8 -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles/snake_default_default_XC8_compile.dir/home/tom/Git/hardware/main.c.p1 -c /home/tom/Git/hardware/main.c",
-  "file": "/home/tom/Git/hardware/main.c",
-  "output": "/home/tom/Git/hardware/_build/snake/default/CMakeFiles/snake_default_default_XC8_compile.dir/home/tom/Git/hardware/main.c.p1"
-}
-]
